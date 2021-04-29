@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# Aufgabe B
 
 
 import pandas as pd
@@ -27,7 +27,8 @@ print(np.median(list))
 print(np.max(list))
 
 
-# In[26]:
+
+# Aufgabe C
 
 
 import pandas as pd
@@ -36,20 +37,13 @@ import numpy as np
 from statistics import mean
 
 
-df = pd.read_csv("C:\\Users\\Sarah\Documents\\Studium\\DGUI\\owid-covid-data.csv")
+df = pd.read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv")
 df.replace('', 0, inplace=True)
 df.replace(np.NaN, 0, inplace=True)
 
 df.groupby(['location']).mean('new_cases').sort_values(by='new_cases', ascending=False)
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
