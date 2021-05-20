@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    background-color: beige;
+}
+h1 {
+    color: brown
+}
+
+h3 {
+    color: dodgerblue;
+}
+
+.covidplot2 {
+    position: absolute;
+    right: 0;
+    
+}
+
+.dcc.dropdown {
+    align-items: center;
+}
+
+.grafik_2 {
+    position: absolute;
+    right: 0;
+}
