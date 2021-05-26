@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f1f5;
+}
+h1 {
+    color: #69cdf2
+}
+
+h3 {
+    color: #a83939;
+}
+
+p {
+    color: #a83939;
+}
+
+.covidplot2 {
+    position: absolute;
+    right: 0;
+    
+}
+
+.dcc.dropdown {
+    align-items: center;
+}
+
+.grafik_2 {
+    position: absolute;
+    right: 0;
+}
