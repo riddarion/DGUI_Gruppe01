@@ -1,0 +1,47 @@
+body {
+    font-family: 'Trebuchet MS', 'Liberation Sans', 'Nimbus Sans L', sans-serif;
+    background-color: #f0f1f5;
+}
+
+h1 {
+    color:#00BFFF;
+    font-weight: bold;    
+}
+
+h3 {
+    color: #B22222;
+}
+
+p {
+    color:#CD5C5C;
+    margin-left: 5%
+}
+
+#begruessung {
+    margin-left: 5%; 
+    margin-top: 3%;
+}
+
+#eingabe {
+    display: flex; 
+}
+
+#continent, #datepicker {
+    margin-left: 5%;
+    padding-top: 20px;   
+}
+
+#continent {
+    height: 20px; 
+}
+
+#covidplot, #covidplot2 {
+    margin-left: 5%;
+    border:5px solid #00BFFF;
+}
+
+#covidplot3, #covidplot4 {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border:5px solid #00BFFF;
+}
